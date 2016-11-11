@@ -48,4 +48,6 @@ Pod::Spec.new do |s|
   s.osx.source_files      = "Sources/OSX/*.swift",
                             "OAuth2/Sources/macOS/*.swift"
   s.dependency 'FHIR'
+  s.dependency 'OAuth2'
+
 end
